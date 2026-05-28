@@ -37,7 +37,7 @@ const reasons = [
   {
     num: '08',
     title: 'Tu Voto Pesa Más de lo que Crees',
-    desc: 'En 2020, solo el 52% de los electores registrados votó. Eso significa que una minoría muy activa decide por todos. Tu voto tiene mucho más peso de lo que imaginas — especialmente a nivel local.',
+    desc: 'En 2024, solo el 58% de los electores registrados votó. Eso significa que 1 de cada 2 boricuas le entregó su poder a otro. Tu voto tiene mucho más peso de lo que imaginas — especialmente a nivel local.',
   },
 ]
 
@@ -46,10 +46,10 @@ export default function WhyVoteSection() {
     <section className="section section--gray" id="por-que">
       <div className="container">
         <span className="section__eyebrow">¿Por Qué Participar?</span>
-        <h2 className="section__title">8 Razones para Votar en Estas Elecciones</h2>
+        <h2 className="section__title">8 Razones para Votar en las Elecciones 2028</h2>
         <p className="section__subtitle">
           No son abstractas. Son las razones que afectan tu factura de luz,
-          tus calles, tu seguridad y el futuro de tu isla.
+          tus calles, tu seguridad y el futuro de Puerto Rico.
         </p>
 
         <div className="reasons-grid">

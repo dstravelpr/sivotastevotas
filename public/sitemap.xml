@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage / Single Page App -->
+  <url>
+    <loc>https://sivotastevotas.com/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es-PR" href="https://sivotastevotas.com/" />
+  </url>
+
+  <!-- Sección: Impacto (#impacto) -->
+  <url>
+    <loc>https://sivotastevotas.com/#impacto</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección: ¿Por Qué Votar? (#por-que) -->
+  <url>
+    <loc>https://sivotastevotas.com/#por-que</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sección: Oficiales (#oficiales) -->
+  <url>
+    <loc>https://sivotastevotas.com/#oficiales</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sección: Historia (#historia) -->
+  <url>
+    <loc>https://sivotastevotas.com/#historia</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Sección: Regístrate (#registrate) -->
+  <url>
+    <loc>https://sivotastevotas.com/#registrate</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,11 @@
+# robots.txt — sivotastevotas.com
+# Movimiento ciudadano electoral Puerto Rico 2028
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://sivotastevotas.com/sitemap.xml
+
+# Crawl-delay (cortesía para bots)
+Crawl-delay: 2

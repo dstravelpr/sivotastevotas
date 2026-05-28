@@ -1,16 +1,16 @@
 const stats = [
   {
-    num: '47%',
+    num: '42%',
     numAccent: false,
-    label: 'No votó en 2020',
-    note: 'De los ~2.3 millones de electores registrados, casi la mitad no fue a votar.',
+    label: 'No votó en 2024',
+    note: 'De los ~2.3 millones de electores registrados, 42% no fue a votar en las últimas elecciones generales.',
     color: 'red',
   },
   {
-    num: '1.2M',
+    num: '1.4M',
     numAccent: true,
-    label: 'Votos emitidos en 2020',
-    note: 'La elección más importante del cuatrienio decidida por solo 1 de cada 2 electores.',
+    label: 'Votos emitidos en 2024',
+    note: 'Solo 1.4 millones de boricuas decidieron quién gobierna a los 3.2 millones restantes.',
     color: 'blue',
   },
   {
@@ -21,10 +21,10 @@ const stats = [
     color: 'red',
   },
   {
-    num: '$12B',
+    num: '$13B',
     numAccent: true,
     label: 'Presupuesto anual de PR',
-    note: 'El gobernador/a que eliges controla cómo se gasta cada dólar de este presupuesto.',
+    note: 'El gobernador/a que eliges controla cómo se gasta cada dólar de este presupuesto — más los fondos federales pendientes.',
     color: 'blue',
   },
 ]
