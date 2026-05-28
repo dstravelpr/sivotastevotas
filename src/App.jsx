@@ -6,7 +6,6 @@ import ComparisonSection from './components/ComparisonSection'
 import OfficialsSection from './components/OfficialsSection'
 import IssuesSection from './components/IssuesSection'
 import HistoryTimeline from './components/HistoryTimeline'
-import NewsSection from './components/NewsSection'
 import RegisterSection from './components/RegisterSection'
 import ShareSection from './components/ShareSection'
 import SubscribeSection from './components/SubscribeSection'
@@ -23,7 +22,6 @@ export default function App() {
       <OfficialsSection />
       <IssuesSection />
       <HistoryTimeline />
-      <NewsSection />
       <RegisterSection />
       <ShareSection />
       <SubscribeSection />
