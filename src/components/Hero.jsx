@@ -1,27 +1,29 @@
 export default function Hero() {
   return (
     <section className="hero" id="inicio">
-      <div className="hero__bg" aria-hidden="true" />
-      <div className="hero__star" aria-hidden="true">★</div>
+      <div className="hero__bg-gradient" aria-hidden="true" />
 
       <div className="hero__content">
         <div className="hero__eyebrow">Próximas Elecciones · Puerto Rico</div>
 
         <h1 className="hero__title">
           SI VOTAS,
-          <span className="line-red">TE VOTAS</span>
-          <span className="line-small">Tu silencio también es una decisión</span>
+          <span className="line-red">TE VOTAS.</span>
         </h1>
 
         <p className="hero__subtitle">
-          Las próximas elecciones decidirán el rumbo de Puerto Rico por los próximos cuatro años.
-          Los temas en juego te afectan directamente. Aquí te decimos por qué tu voto importa.
+          Tu silencio también es una decisión. Las próximas elecciones decidirán el rumbo
+          de Puerto Rico por los próximos cuatro años — y tú tienes el poder de cambiarlas.
         </p>
 
         <div className="hero__actions">
-          <a href="#por-que" className="btn btn--red">¿Por Qué Votar?</a>
-          <a href="#noticias" className="btn btn--outline-white">Últimas Noticias</a>
+          <a href="#impacto" className="btn btn--red">Ver el Impacto</a>
+          <a href="#registrate" className="btn btn--outline-white">¡Regístrate a Votar!</a>
         </div>
+      </div>
+
+      <div className="hero__flag-bar" aria-hidden="true">
+        <span /><span /><span /><span /><span />
       </div>
 
       <div className="hero__scroll-hint" aria-hidden="true">

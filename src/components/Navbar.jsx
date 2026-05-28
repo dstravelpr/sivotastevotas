@@ -16,10 +16,12 @@ export default function Navbar() {
         <Logo size={36} wordmark horizontal />
       </a>
       <ul className="navbar__links">
+        <li><a href="#impacto">Impacto</a></li>
         <li><a href="#por-que">¿Por Qué?</a></li>
-        <li><a href="#temas">Temas</a></li>
+        <li><a href="#oficiales">Oficiales</a></li>
+        <li><a href="#historia">Historia</a></li>
         <li><a href="#noticias">Noticias</a></li>
-        <li><a href="#comparte" className="nav-cta">Comparte</a></li>
+        <li><a href="#registrate" className="nav-cta">¡Regístrate!</a></li>
       </ul>
     </nav>
   )
