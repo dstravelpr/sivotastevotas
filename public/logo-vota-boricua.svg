@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" width="560" height="320">
+  <!-- Mark: La V Boricua -->
+  <g transform="translate(140, 10) scale(1)">
+    <!-- Left arm — RED triangle -->
+    <polygon points="10,10 96,10 140,290" fill="#CF0A2C"/>
+    <!-- Right arm — PR blue triangle -->
+    <polygon points="270,10 184,10 140,290" fill="#3F76BC"/>
+    <!-- White PR star -->
+    <polygon points="140,220 147,239 167,239 151,251 157,271 140,259 124,271 130,251 113,239 134,239" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text
+    x="310" y="160"
+    font-family="'Big Shoulders Display', Impact, Arial Black, sans-serif"
+    font-weight="900"
+    font-size="110"
+    letter-spacing="4"
+    fill="#CF0A2C"
+    dominant-baseline="auto"
+  >VOTA</text>
+  <text
+    x="310" y="255"
+    font-family="'Big Shoulders Display', Impact, Arial Black, sans-serif"
+    font-weight="900"
+    font-size="72"
+    letter-spacing="14"
+    fill="rgba(255,255,255,0.85)"
+  >BORICUA</text>
+</svg>
