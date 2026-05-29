@@ -19,6 +19,7 @@ export default function Navbar() {
         <li><a href="#impacto">Impacto</a></li>
         <li><a href="#por-que">¿Por Qué?</a></li>
         <li><a href="#oficiales">Oficiales</a></li>
+        <li><a href="#votate">¡Vótate!</a></li>
         <li><a href="#historia">Historia</a></li>
         <li><a href="#registrate" className="nav-cta">¡Regístrate!</a></li>
       </ul>

@@ -4,6 +4,7 @@ import StatsSection from './components/StatsSection'
 import WhyVoteSection from './components/WhyVoteSection'
 import ComparisonSection from './components/ComparisonSection'
 import OfficialsSection from './components/OfficialsSection'
+import VotateSection from './components/VotateSection'
 import IssuesSection from './components/IssuesSection'
 import HistoryTimeline from './components/HistoryTimeline'
 import RegisterSection from './components/RegisterSection'
@@ -20,6 +21,7 @@ export default function App() {
       <WhyVoteSection />
       <ComparisonSection />
       <OfficialsSection />
+      <VotateSection />
       <IssuesSection />
       <HistoryTimeline />
       <RegisterSection />

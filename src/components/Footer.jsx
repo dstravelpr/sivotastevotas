@@ -20,6 +20,7 @@ export default function Footer() {
         <a href="#impacto">El Impacto</a>
         <a href="#por-que">¿Por Qué Votar?</a>
         <a href="#oficiales">Oficiales</a>
+        <a href="#votate">¡Vótate!</a>
         <a href="#historia">Historia Electoral</a>
         <a href="#registrate">Regístrate</a>
         <a href="https://www.ceepur.org" target="_blank" rel="noopener noreferrer">CEE — Registro Oficial</a>
