@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { width: 1200px; height: 630px; overflow: hidden; background: #080808; }
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="c" width="1200" height="630"></canvas>
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+
+    // Background
+    ctx.fillStyle = '#080808';
+    ctx.fillRect(0, 0, 1200, 630);
+
+    // Subtle red vignette glow bottom-left
+    const grd = ctx.createRadialGradient(200, 630, 0, 200, 630, 500);
+    grd.addColorStop(0, 'rgba(207,10,44,0.15)');
+    grd.addColorStop(1, 'rgba(8,8,8,0)');
+    ctx.fillStyle = grd;
+    ctx.fillRect(0, 0, 1200, 630);
+
+    // Blue glow top-right
+    const grd2 = ctx.createRadialGradient(1000, 0, 0, 1000, 0, 400);
+    grd2.addColorStop(0, 'rgba(0,40,104,0.2)');
+    grd2.addColorStop(1, 'rgba(8,8,8,0)');
+    ctx.fillStyle = grd2;
+    ctx.fillRect(0, 0, 1200, 630);
+
+    // ── V Logo Mark ──────────────────────────────────────────
+    const CX = 200;   // center x of logo mark
+    const TOP = 80;   // top y
+    const W = 220;    // total width of V
+    const H = 420;    // height of V
+    const MID = CX;   // midpoint x
+
+    // Left triangle (RED) — points: top-left, top-mid, bottom-tip
+    ctx.beginPath();
+    ctx.moveTo(MID - W/2, TOP);
+    ctx.lineTo(MID, TOP);
+    ctx.lineTo(MID, TOP + H);
+    ctx.closePath();
+    ctx.fillStyle = '#CF0A2C';
+    ctx.fill();
+
+    // Right triangle (BLUE) — points: top-mid, top-right, bottom-tip
+    ctx.beginPath();
+    ctx.moveTo(MID, TOP);
+    ctx.lineTo(MID + W/2, TOP);
+    ctx.lineTo(MID, TOP + H);
+    ctx.closePath();
+    ctx.fillStyle = '#3F76BC';
+    ctx.fill();
+
+    // White PR Star — centered at ~2/3 down the V
+    function drawStar(cx, cy, spikes, outerR, innerR) {
+      let rot = (Math.PI / 2) * 3;
+      const step = Math.PI / spikes;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy - outerR);
+      for (let i = 0; i < spikes; i++) {
+        ctx.lineTo(
+          cx + Math.cos(rot) * outerR,
+          cy + Math.sin(rot) * outerR
+        );
+        rot += step;
+        ctx.lineTo(
+          cx + Math.cos(rot) * innerR,
+          cy + Math.sin(rot) * innerR
+        );
+        rot += step;
+      }
+      ctx.lineTo(cx, cy - outerR);
+      ctx.closePath();
+      ctx.fillStyle = '#FFFFFF';
+      ctx.fill();
+    }
+    drawStar(MID, TOP + H * 0.65, 5, 38, 17);
+
+    // ── Wordmark ─────────────────────────────────────────────
+    const TXT_X = 490;
+
+    // "VOTA"
+    ctx.font = '900 210px "Big Shoulders Display", Impact, Arial Black, sans-serif';
+    ctx.fillStyle = '#CF0A2C';
+    ctx.textBaseline = 'top';
+    ctx.fillText('VOTA', TXT_X, 95);
+
+    // "BORICUA"
+    ctx.font = '900 118px "Big Shoulders Display", Impact, Arial Black, sans-serif';
+    ctx.fillStyle = 'rgba(255,255,255,0.88)';
+    ctx.fillText('BORICUA', TXT_X, 318);
+
+    // Divider line
+    ctx.strokeStyle = 'rgba(207,10,44,0.5)';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(TXT_X, 300);
+    ctx.lineTo(TXT_X + 580, 300);
+    ctx.stroke();
+
+    // Tagline
+    ctx.font = '600 32px Inter, system-ui, sans-serif';
+    ctx.fillStyle = 'rgba(255,255,255,0.45)';
+    ctx.letterSpacing = '4px';
+    ctx.fillText('SI VOTAS, TE VOTAS.', TXT_X, 470);
+
+    // URL
+    ctx.font = '400 22px Inter, system-ui, sans-serif';
+    ctx.fillStyle = 'rgba(255,255,255,0.2)';
+    ctx.fillText('sivotastevotas.com', TXT_X, 535);
+
+    // Export as PNG data URL
+    window.__ogImageData = canvas.toDataURL('image/png');
+  </script>
+</body>
+</html>
