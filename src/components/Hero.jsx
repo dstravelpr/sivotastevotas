@@ -1,3 +1,5 @@
+import Countdown from './Countdown'
+
 export default function Hero() {
   return (
     <section className="hero" id="inicio">
@@ -20,6 +22,8 @@ export default function Hero() {
           <a href="#impacto" className="btn btn--red">Ver el Impacto</a>
           <a href="#registrate" className="btn btn--outline-white">¡Regístrate a Votar!</a>
         </div>
+
+        <Countdown />
       </div>
 
       <div className="hero__flag-bar" aria-hidden="true">

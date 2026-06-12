@@ -29,6 +29,8 @@ const stats = [
   },
 ]
 
+import CountUp from './CountUp'
+
 export default function StatsSection() {
   return (
     <section className="section section--dark" id="impacto">
@@ -45,8 +47,8 @@ export default function StatsSection() {
             <div key={s.label} className={`stat-card stat-card--${s.color}`}>
               <div className="stat-card__num">
                 {s.numAccent
-                  ? <><span className="num-accent">{s.num.slice(0, -1)}</span>{s.num.slice(-1)}</>
-                  : s.num}
+                  ? <><span className="num-accent"><CountUp value={s.num.slice(0, -1)} /></span>{s.num.slice(-1)}</>
+                  : <CountUp value={s.num} />}
               </div>
               <div className="stat-card__label">{s.label}</div>
               <p className="stat-card__note">{s.note}</p>

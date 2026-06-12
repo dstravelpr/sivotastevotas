@@ -1,5 +1,5 @@
 const issues = [
-  { icon: '💧', title: 'Crisis del Agua', desc: 'Decenas de municipios sin agua potable por días — incluyendo hogares, escuelas y hospitales. La infraestructura de la AAA lleva décadas sin la inversión que solo un gobierno comprometido puede garantizar. Tu voto en 2028 decide si esto cambia.', urgent: true },
+  { icon: '💧', title: 'Crisis del Agua', desc: 'Más de 110,000 clientes afectados por averías en el Superacueducto. Meses de interrupciones en San Juan, Bayamón, Guaynabo, Carolina y más. La directiva de la AAA la nombra el gobierno que TÚ eliges — décadas de falta de inversión son una decisión política. Tu voto en 2028 decide si esto cambia.', urgent: true },
   { icon: '⚡', title: 'Energía Eléctrica', desc: 'LUMA, la AEE, los apagones y el futuro energético de Puerto Rico. Las tarifas récord y la transición a energía renovable dependen del gobierno que elijas.' },
   { icon: '💰', title: 'Crisis Económica', desc: 'La Junta de Supervisión Fiscal controla el presupuesto. El costo de vida, los empleos y la deuda pública requieren líderes con visión y fuerza negociadora.' },
   { icon: '🏛️', title: 'Estatus Político', desc: 'Estadidad, ELA mejorado o independencia — el debate más largo de nuestra historia. Los representantes que elijas determinarán cuánto avanza esta conversación en Washington.' },
