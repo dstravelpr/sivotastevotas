@@ -17,7 +17,7 @@ const QUESTIONS = [
     q: '¿Por cuántos votos se han decidido alcaldías en Puerto Rico?',
     options: ['Miles de votos siempre', 'Menos de 300 votos', 'Nunca ha estado cerca', 'Por sorteo'],
     correct: 1,
-    explain: 'En 2020 varios municipios se decidieron por menos de 300 votos. En una elección local, TU voto literalmente puede decidir el resultado.',
+    explain: 'Ha pasado: alcaldías decididas por menos de 300 votos. Y en 2024, la gobernadora fue electa con solo el 39% de los votos — la minoría que votó decidió por todos. En una elección local, TU voto literalmente puede decidir el resultado.',
   },
   {
     q: '¿Cuántos votos tiene Puerto Rico en el pleno del Congreso federal?',

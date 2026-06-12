@@ -17,7 +17,8 @@ const events = [
   { year: '2017', title: 'Huracán María y Plebiscito', desc: 'El Huracán María arrasa Puerto Rico causando más de 3,000 muertes. Meses antes, un plebiscito no vinculante da 97% a la estadidad con solo 23% de participación.' },
   { year: '2019', title: 'El Verano del \'19', desc: 'Cientos de miles de puertorriqueños salen a las calles tras revelarse chats indignantes del gobernador Ricardo Rosselló. Es la mayor protesta en la historia de Puerto Rico. Rosselló renuncia.' },
   { year: '2020', title: 'Plebiscito: Estadidad Gana con 52.5%', desc: 'En el plebiscito de estatus más concurrido, la estadidad gana con 52.5% de los votos. Sin embargo, el Congreso aún no ha actuado. El futuro de Puerto Rico sigue en manos del voto.' },
-  { year: '2024+', title: 'Las Próximas Elecciones', desc: 'El gobernador/a, el Comisionado Residente, 27 senadores, 51 representantes y 78 alcaldes están en juego. El futuro de Puerto Rico — su estatus, su economía, sus servicios — se decide en las urnas. ¿Estarás ahí?' },
+  { year: '2024', title: 'Una Gobernadora con el 39% de los Votos', desc: 'Jenniffer González gana la gobernación con solo el 39.45% de los votos en una elección histórica de múltiples partidos. El 42% de los electores registrados no votó — más que suficiente para haber cambiado cualquier resultado. La minoría que votó decidió por todos.' },
+  { year: '2028', title: 'Las Próximas Elecciones: Tu Turno', desc: 'El 7 de noviembre de 2028 están en juego: la gobernación, el Comisionado Residente, 27 senadores, 51 representantes y 78 alcaldes. El agua, la luz, la economía y el estatus de Puerto Rico se deciden en las urnas. ¿Estarás ahí?' },
 ]
 
 export default function HistoryTimeline() {

@@ -1,5 +1,5 @@
 const yesItems = [
-  'Tienes voz directa en quién maneja el presupuesto de $12 billones de Puerto Rico.',
+  'Tienes voz directa en quién maneja el presupuesto de $13 billones de Puerto Rico.',
   'Decides quién nombra a los jueces del Tribunal Supremo y los secretarios de estado.',
   'Influyes en el alcalde/alcaldesa que da los servicios de tu municipio — agua, basura, permisos.',
   'Participas en el debate sobre el estatus político de Puerto Rico con representación real.',

@@ -10,7 +10,7 @@ const officials = [
       'Jefe/a del poder ejecutivo de Puerto Rico.',
       'Firma o veta todo proyecto de ley aprobado por la Asamblea Legislativa.',
       'Nombra al Secretario de Estado, secretarios de gabinete y jueces del Tribunal Supremo.',
-      'Administra el presupuesto anual de ~$12 billones.',
+      'Administra el presupuesto anual de ~$13 billones.',
       'Puede declarar estado de emergencia y movilizar la Guardia Nacional.',
       'Representa a Puerto Rico ante el gobierno federal y otras jurisdicciones.',
     ],

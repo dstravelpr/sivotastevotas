@@ -7,7 +7,7 @@ const powerCards = [
   {
     icon: '🗳️',
     title: 'El Margen de Victoria Puede Ser Tuyo',
-    desc: 'En las elecciones de 2020, varios alcaldes ganaron por menos de 300 votos. En algunos municipios, la diferencia fue de decenas. Tu voto no es uno entre millones — en una elección local, puede literalmente decidir el resultado.',
+    desc: 'En 2024, la gobernadora fue electa con solo el 39% de los votos — mientras el 42% de los electores se quedó en casa. Los que no votaron eran más que suficientes para cambiar el resultado. Y en los municipios, ha habido alcaldías decididas por menos de 300 votos.',
   },
   {
     icon: '🔄',
