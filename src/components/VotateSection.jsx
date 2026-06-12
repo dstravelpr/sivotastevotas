@@ -65,7 +65,7 @@ export default function VotateSection() {
             <span className="votate-title__white">SI VOTAS.</span>
           </h2>
           <p className="votate-subtitle">
-            Tu boleta no es un papel — es el único instrumento legal con el que los
+            Tu papeleta no es un papel — es el único instrumento legal con el que los
             ciudadanos controlan a quienes los gobiernan. Ellos llegan al poder
             porque tú los pusiste. Y tú los puedes sacar.
           </p>
@@ -107,7 +107,7 @@ export default function VotateSection() {
         {/* ── Closing Statement ─────────────────────────────── */}
         <div className="votate-closing">
           <p className="votate-closing__text">
-            Tu boleta es el contrato entre ciudadano y gobierno.
+            Tu papeleta es el contrato entre ciudadano y gobierno.
           </p>
           <p className="votate-closing__cta">
             Si no cumplen — <strong>los votas.</strong>
