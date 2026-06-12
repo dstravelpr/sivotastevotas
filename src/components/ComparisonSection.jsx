@@ -21,7 +21,7 @@ export default function ComparisonSection() {
     <section className="section" style={{ padding: 0 }}>
       <div className="comparison-header" style={{ padding: '4rem 2rem 0' }}>
         <span className="section__eyebrow">La Decisión Más Importante</span>
-        <h2 className="section__title">Votas vs. No Votas</h2>
+        <h2 className="section__title">Votar vs. No Votar</h2>
         <p className="section__subtitle">
           No votar no es una posición neutral. Es una decisión activa con consecuencias reales.
         </p>
