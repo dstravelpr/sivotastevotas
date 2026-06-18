@@ -6,6 +6,7 @@ import WhyVoteSection from './components/WhyVoteSection'
 import ComparisonSection from './components/ComparisonSection'
 import OfficialsSection from './components/OfficialsSection'
 import VotateSection from './components/VotateSection'
+import AccountabilitySection from './components/AccountabilitySection'
 import IssuesSection from './components/IssuesSection'
 import HistoryTimeline from './components/HistoryTimeline'
 import QuizSection from './components/QuizSection'
@@ -19,6 +20,7 @@ const REVEAL_SELECTORS = [
   '.stat-card', '.reason-card', '.issue-card', '.official-card',
   '.votate-card', '.votate-connect-card', '.comparison-col',
   '.timeline-item', '.quiz-card', '.votate-closing',
+  '.power-node', '.case-card',
 ].join(', ')
 
 export default function App() {
@@ -57,6 +59,7 @@ export default function App() {
       <ComparisonSection />
       <OfficialsSection />
       <VotateSection />
+      <AccountabilitySection />
       <IssuesSection />
       <HistoryTimeline />
       <QuizSection />
