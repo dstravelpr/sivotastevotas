@@ -1225,9 +1225,87 @@ body {
 }
 .accountability__cta { margin-top: 3rem; }
 
+/* ===== ALIGN — VOTA POR LA PERSONA ===== */
+.align {
+  background: var(--gray);
+  color: var(--dark);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+.align__eyebrow { color: var(--red) !important; }
+.align__title { color: var(--dark); }
+.align__sub { color: #444; opacity: 1; }
+.align__sub strong { color: var(--dark); }
+.align__checklist-intro {
+  font-family: var(--f-head);
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin: 3rem 0 1.75rem;
+}
+.align-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: left;
+}
+.align-card {
+  background: var(--white);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-top: 3px solid var(--red);
+  border-radius: 12px;
+  padding: 1.75rem 1.6rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.align-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+}
+.align-card__icon { font-size: 1.8rem; display: block; margin-bottom: 0.85rem; }
+.align-card__q {
+  font-family: var(--f-head);
+  font-weight: 900;
+  font-size: 1.35rem;
+  letter-spacing: 0.01em;
+  color: var(--dark);
+  margin-bottom: 0.6rem;
+  line-height: 1.05;
+}
+.align-card__desc {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #555;
+}
+.align-closing {
+  max-width: 680px;
+  margin: 3.5rem auto 0;
+}
+.align-closing__lead {
+  font-size: 1.05rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+.align-closing__big {
+  font-family: var(--f-head);
+  font-weight: 900;
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  color: var(--dark);
+  margin-bottom: 2rem;
+}
+.align-closing__big .accent { color: var(--red); }
+.align-closing__cta { margin-top: 0; }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .navbar__links { display: none; }
+  .align { padding: 4.5rem 1.25rem; }
+  .align-grid { grid-template-columns: 1fr; }
   .power-chain { flex-direction: column; align-items: stretch; }
   .power-chain__arrow { transform: rotate(90deg); justify-content: center; padding: 0.25rem 0; }
   .case-card { padding: 1.75rem 1.4rem; }

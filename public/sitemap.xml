@@ -51,6 +51,14 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Sección: Vota por la persona, no por el partido (#alinea) -->
+  <url>
+    <loc>https://sivotastevotas.com/#alinea</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Sección: Temas — crisis del agua, energía, economía (#temas) -->
   <url>
     <loc>https://sivotastevotas.com/#temas</loc>
