@@ -300,9 +300,11 @@ body {
 .section--gray { background: var(--gray); }
 .section--center { text-align: center; }
 .container { max-width: var(--max-w); margin: 0 auto; }
+/* Section headers are centered consistently across every section */
 .section__eyebrow {
-  display: inline-block;
-  font-size: 0.72rem;
+  display: block;
+  text-align: center;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -314,18 +316,20 @@ body {
 .section--red .section__eyebrow { color: rgba(255,255,255,0.75); }
 .section__title {
   font-family: var(--f-head);
-  font-size: clamp(2.8rem, 5.5vw, 4.5rem);
+  font-size: clamp(3.2rem, 6.2vw, 5.2rem);
   line-height: 1;
   letter-spacing: 0.02em;
   margin-bottom: 1.25rem;
+  text-align: center;
 }
 .section__subtitle {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.7;
   max-width: 62ch;
   margin-left: auto;
   margin-right: auto;
   opacity: 0.75;
+  text-align: center;
 }
 
 /* ===== BUTTONS ===== */
