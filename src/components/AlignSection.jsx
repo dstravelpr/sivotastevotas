@@ -1,21 +1,23 @@
+import Icon from './Icon'
+
 const checklist = [
   {
-    icon: '📂',
+    icon: 'folder',
     q: '¿Cuál es su récord?',
     desc: 'Investiga su historial real — lo que ha hecho, no lo que promete. Las acciones pasadas predicen las futuras.',
   },
   {
-    icon: '💵',
+    icon: 'money',
     q: '¿Quién financia su campaña?',
     desc: 'Mira de dónde viene su dinero. Quien paga la campaña muchas veces espera algo a cambio.',
   },
   {
-    icon: '🎯',
+    icon: 'target',
     q: '¿Se alinea con TUS valores?',
     desc: 'Lee sus posturas en los temas que te importan: agua, energía, economía, estatus. Compara con lo que tú crees.',
   },
   {
-    icon: '🔍',
+    icon: 'search',
     q: '¿Es transparente?',
     desc: 'Busca señalamientos, querellas o investigaciones. Un buen líder no le teme a la rendición de cuentas.',
   },
@@ -42,7 +44,7 @@ export default function AlignSection() {
         <div className="align-grid">
           {checklist.map((c) => (
             <div className="align-card" key={c.q}>
-              <span className="align-card__icon">{c.icon}</span>
+              <span className="align-card__icon"><Icon name={c.icon} size={28} /></span>
               <h3 className="align-card__q">{c.q}</h3>
               <p className="align-card__desc">{c.desc}</p>
             </div>

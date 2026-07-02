@@ -1,21 +1,23 @@
+import Icon from './Icon'
+
 const powerCards = [
   {
-    icon: '📊',
+    icon: 'chart',
     title: 'Los Políticos Saben Quién Vota',
     desc: 'Los partidos tienen bases de datos detalladas de cada elector. Saben si votaste en las últimas 3 elecciones. Los precintos con alta participación reciben más atención, más servicios y más inversión. Si no votas, eres invisible en esa base de datos — y ellos lo saben.',
   },
   {
-    icon: '🗳️',
+    icon: 'ballot',
     title: 'El Margen de Victoria Puede Ser Tuyo',
     desc: 'En 2024, la gobernadora fue electa con solo el 39% de los votos — mientras el 42% de los electores se quedó en casa. Los que no votaron eran más que suficientes para cambiar el resultado. Y en los municipios, ha habido alcaldías decididas por menos de 300 votos.',
   },
   {
-    icon: '🔄',
+    icon: 'cycle',
     title: 'Cada 4 Años Eres Su Jefe/a',
     desc: 'Ningún gobernador, alcalde ni senador tiene su puesto garantizado. Cada cuatro años, el contrato se vence. Tú decides si lo renuevas o lo terminas. Esa es la mecánica real de la democracia: el poder lo tienes tú, prestado a ellos temporeramente.',
   },
   {
-    icon: '🎯',
+    icon: 'target',
     title: 'Tu Abstención Es Su Mayor Aliado',
     desc: 'Un funcionario que sabe que no votas no tiene incentivo para servirte. ¿Para qué arreglar tus calles si no apareces en las urnas? El abstencionismo no es neutralidad — es un cheque en blanco para quienes están en el poder. Ellos cuentan con que no vayas.',
   },
@@ -77,7 +79,7 @@ export default function VotateSection() {
         <div className="votate-cards">
           {powerCards.map((c) => (
             <div className="votate-card" key={c.title}>
-              <span className="votate-card__icon">{c.icon}</span>
+              <span className="votate-card__icon"><Icon name={c.icon} size={30} /></span>
               <h3 className="votate-card__title">{c.title}</h3>
               <p className="votate-card__desc">{c.desc}</p>
             </div>
