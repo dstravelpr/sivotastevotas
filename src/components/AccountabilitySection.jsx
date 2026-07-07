@@ -50,9 +50,10 @@ export default function AccountabilitySection() {
             obstaculizar una investigación sobre irregularidades en un proceso de
             contratación pagado con <strong>fondos federales</strong>, y que miembros del
             comité de evaluación se sintieron intimidados. El Secretario de la Gobernación
-            ha <strong>rechazado categóricamente</strong> las acusaciones. El caso está
-            bajo evaluación del PFEI. Hasta el Senado federal de los EE.UU. cuestionó a la
-            gobernadora sobre el manejo de esos fondos.
+            ha <strong>rechazado categóricamente</strong> las acusaciones. El PFEI ya
+            designó <strong>dos fiscales especiales independientes</strong> para investigar,
+            y el Senado de Puerto Rico ordenó su propia investigación. Hasta el Senado
+            federal de los EE.UU. cuestionó a la gobernadora sobre el manejo de esos fondos.
           </p>
           <p className="case-card__lesson">
             Sea cual sea el resultado, la lección cívica es la misma: este nivel de poder
