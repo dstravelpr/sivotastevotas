@@ -1,94 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage / Single Page App -->
+  <!-- Single-page app: one real crawlable resource. Section anchors live in llms.txt, not here. -->
   <url>
     <loc>https://sivotastevotas.com/</loc>
     <lastmod>2026-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="es-PR" href="https://sivotastevotas.com/" />
-  </url>
-
-  <!-- Sección: Impacto (#impacto) -->
-  <url>
-    <loc>https://sivotastevotas.com/#impacto</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Sección: ¿Por Qué Votar? (#por-que) -->
-  <url>
-    <loc>https://sivotastevotas.com/#por-que</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Sección: Oficiales (#oficiales) -->
-  <url>
-    <loc>https://sivotastevotas.com/#oficiales</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Sección: ¡Vótate! (#votate) -->
-  <url>
-    <loc>https://sivotastevotas.com/#votate</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Sección: Rendición de cuentas — poder del gobernador (#rendicion) -->
-  <url>
-    <loc>https://sivotastevotas.com/#rendicion</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Sección: Vota por la persona, no por el partido (#alinea) -->
-  <url>
-    <loc>https://sivotastevotas.com/#alinea</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Sección: Temas — crisis del agua, energía, economía (#temas) -->
-  <url>
-    <loc>https://sivotastevotas.com/#temas</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Sección: Historia (#historia) -->
-  <url>
-    <loc>https://sivotastevotas.com/#historia</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Sección: Quiz — ¿Cuánto poder tiene tu voto? (#quiz) -->
-  <url>
-    <loc>https://sivotastevotas.com/#quiz</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Sección: Regístrate (#registrate) -->
-  <url>
-    <loc>https://sivotastevotas.com/#registrate</loc>
-    <lastmod>2026-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
 
 </urlset>
