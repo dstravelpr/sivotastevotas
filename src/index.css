@@ -1011,6 +1011,47 @@ body {
   color: var(--red);
 }
 
+/* ===== MARQUEE ===== */
+.marquee {
+  background: var(--red);
+  overflow: hidden;
+  padding: 0.85rem 0;
+  border-top: 1px solid rgba(0,0,0,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.marquee__track {
+  display: flex;
+  width: max-content;
+  animation: marqueeScroll 28s linear infinite;
+}
+.marquee__strip {
+  display: flex;
+  flex-shrink: 0;
+}
+.marquee__item {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--f-head);
+  font-weight: 900;
+  font-size: 1.35rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--white);
+  white-space: nowrap;
+}
+.marquee__star {
+  color: rgba(8,8,8,0.55);
+  font-size: 0.85rem;
+  margin: 0 1.5rem;
+}
+@keyframes marqueeScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track { animation: none; }
+}
+
 /* ===== SCROLL REVEAL ===== */
 .reveal-init {
   opacity: 0;

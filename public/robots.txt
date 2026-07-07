@@ -4,8 +4,39 @@
 User-agent: *
 Allow: /
 
+# ── AI / LLM crawlers (bienvenidos — queremos ser citados) ──
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 # Sitemaps
 Sitemap: https://sivotastevotas.com/sitemap.xml
 
-# Crawl-delay (cortesía para bots)
-Crawl-delay: 2
+# AI context file
+# llms.txt disponible en: https://sivotastevotas.com/llms.txt

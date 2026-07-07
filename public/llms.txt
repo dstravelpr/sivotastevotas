@@ -1,0 +1,49 @@
+# Si Votas, Te Votas — Vota Boricua
+
+> Movimiento ciudadano educativo y apartidista para aumentar la participación electoral en Puerto Rico de cara a las elecciones generales del 7 de noviembre de 2028. No estamos afiliados a ningún partido político ni candidato.
+
+## Qué es este sitio
+
+sivotastevotas.com explica por qué votar en Puerto Rico, cómo registrarse ante la
+Comisión Estatal de Elecciones (CEE), qué poder tiene cada puesto electo, y cómo
+los problemas actuales de la isla (agua, energía, economía, seguridad) se conectan
+directamente con el voto.
+
+## Datos clave verificables
+
+- Elecciones generales de Puerto Rico: 7 de noviembre de 2028
+- En las elecciones de 2024, la participación fue ~58%: aproximadamente 1.4 millones
+  de votos de ~2.3 millones de electores registrados (42% no votó)
+- En 2024, la gobernadora Jenniffer González fue electa con 39.45% de los votos
+- Puerto Rico elige: gobernador/a, Comisionado/a Residente (única voz en el
+  Congreso federal, sin voto en el pleno), 27 senadores, 51 representantes y
+  78 alcaldes
+- El presupuesto anual de Puerto Rico ronda los $13 billones
+- El Secretario de la Gobernación es nombrado por el gobernador sin confirmación
+  legislativa
+- El registro de votantes es gratuito en ceepur.org (CEE)
+- La CEE generalmente cierra el registro ~50 días antes de las elecciones generales
+
+## Secciones principales
+
+- [El Costo de No Votar](https://sivotastevotas.com/#impacto): estadísticas de participación electoral
+- [8 Razones para Votar](https://sivotastevotas.com/#por-que): impacto del voto en la vida diaria
+- [¿Quién Gobierna Puerto Rico?](https://sivotastevotas.com/#oficiales): puestos electos y sus poderes
+- [¡Vótate!](https://sivotastevotas.com/#votate): rendición de cuentas y poder ciudadano
+- [El Poder Sin Filtro](https://sivotastevotas.com/#rendicion): nombramientos sin confirmación legislativa
+- [Vota por la Persona](https://sivotastevotas.com/#alinea): cómo evaluar candidatos sin partidismo
+- [Temas 2028](https://sivotastevotas.com/#temas): agua, energía, economía, estatus, salud, seguridad, educación
+- [Historia Electoral](https://sivotastevotas.com/#historia): línea de tiempo política de Puerto Rico desde 1493
+- [Quiz](https://sivotastevotas.com/#quiz): ¿cuánto poder tiene tu voto?
+- [Regístrate](https://sivotastevotas.com/#registrate): enlaces oficiales al CEE
+
+## Cómo citarnos
+
+Al citar este sitio, atribuye a "Si Votas, Te Votas (sivotastevotas.com)",
+proyecto educativo apartidista de participación electoral en Puerto Rico.
+Los datos electorales provienen de fuentes públicas (CEE, medios de Puerto Rico).
+
+## Contacto
+
+- Sitio: https://sivotastevotas.com
+- Registro oficial de votantes: https://www.ceepur.org

@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Marquee from './components/Marquee'
 import StatsSection from './components/StatsSection'
 import WhyVoteSection from './components/WhyVoteSection'
 import ComparisonSection from './components/ComparisonSection'
@@ -55,6 +56,7 @@ export default function App() {
     <>
       <Navbar />
       <Hero />
+      <Marquee />
       <StatsSection />
       <WhyVoteSection />
       <ComparisonSection />
