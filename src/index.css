@@ -434,7 +434,7 @@ body {
 .comparison-list li .ci {
   flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  font-size: 0.75rem; font-weight: 900; margin-top: 0.1rem;
+  font-size: 0.75rem; font-weight: 700; margin-top: 0.1rem;
 }
 .comparison-col--yes .ci { background: rgba(168,209,255,0.2); color: #A8D1FF; }
 .comparison-col--no .ci { background: rgba(207,10,44,0.2); color: var(--red); }
@@ -808,6 +808,33 @@ body {
   transition: color 0.2s;
 }
 .footer__links a:hover { color: var(--white); }
+.footer__about {
+  max-width: 560px;
+  margin: 2.5rem auto;
+  padding: 1.75rem 1.75rem;
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.02);
+  text-align: left;
+}
+.footer__about-title {
+  font-family: var(--f-head);
+  font-weight: 900;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 0.75rem;
+}
+.footer__about p {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 0.75rem;
+}
+.footer__about p:last-child { margin-bottom: 0; }
+.footer__about strong { color: rgba(255,255,255,0.8); }
+
 .footer__copy { font-size: 0.75rem; color: rgba(255,255,255,0.5); }
 .footer__disclaimer {
   font-size: 0.72rem;

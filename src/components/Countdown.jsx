@@ -15,21 +15,19 @@ function getTimeLeft() {
 }
 
 export default function Countdown() {
-  const [t, setT] = useState(getTimeLeft)
+  // null during SSR/prerender and first paint — the ticking values only exist
+  // client-side, so server and client markup always match (no hydration mismatch)
+  const [t, setT] = useState(null)
 
   useEffect(() => {
+    setT(getTimeLeft())
     const id = setInterval(() => setT(getTimeLeft()), 1000)
     return () => clearInterval(id)
   }, [])
 
-  if (!t) return null
-
-  const units = [
-    ['Días', t.days],
-    ['Horas', t.hours],
-    ['Min', t.mins],
-    ['Seg', t.secs],
-  ]
+  const units = t
+    ? [['Días', t.days], ['Horas', t.hours], ['Min', t.mins], ['Seg', t.secs]]
+    : [['Días', '—'], ['Horas', '—'], ['Min', '—'], ['Seg', '—']]
 
   return (
     <div className="countdown" role="timer" aria-label="Tiempo restante para las elecciones generales de Puerto Rico 2028">
@@ -37,7 +35,7 @@ export default function Countdown() {
       <div className="countdown__units">
         {units.map(([label, val]) => (
           <div className="countdown__unit" key={label}>
-            <span className="countdown__num">{String(val).padStart(2, '0')}</span>
+            <span className="countdown__num">{typeof val === 'number' ? String(val).padStart(2, '0') : val}</span>
             <span className="countdown__unit-label">{label}</span>
           </div>
         ))}
