@@ -86,6 +86,21 @@ export default function VotateSection() {
           ))}
         </div>
 
+        {/* ── No Recall Callout ─────────────────────────────── */}
+        <div className="norecall">
+          <div className="norecall__badge">Dato Que Pocos Conocen</div>
+          <h3 className="norecall__title">En Puerto Rico NO Existe el Recall</h3>
+          <p className="norecall__body">
+            A diferencia de otros lugares, aquí los ciudadanos <strong>no pueden revocar</strong> a
+            un funcionario electo. No hay recogido de firmas, no hay referéndum de destitución.
+            Una vez electo, solo sus propios colegas pueden destituirlo mediante
+            &ldquo;residenciamiento&rdquo; — un proceso interno que casi nunca ocurre.
+          </p>
+          <p className="norecall__punch">
+            No hay botón de deshacer. Tu voto es tu única herramienta — úsala bien la primera vez.
+          </p>
+        </div>
+
         {/* ── Civic Connection ──────────────────────────────── */}
         <div className="votate-connections">
           <h3 className="votate-connections__title">Tu Voto → Su Poder → Tu Vida</h3>

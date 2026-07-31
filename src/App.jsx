@@ -23,6 +23,7 @@ const REVEAL_SELECTORS = [
   '.votate-card', '.votate-connect-card', '.comparison-col',
   '.timeline-item', '.quiz-card', '.votate-closing',
   '.power-node', '.case-card', '.align-card', '.align-closing',
+  '.norecall',
 ].join(', ')
 
 export default function App() {

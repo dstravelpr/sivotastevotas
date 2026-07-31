@@ -83,7 +83,7 @@ const officials = [
     level: 'Legislativo Municipal',
     levelClass: 'level--municipal',
     title: 'Legislatura Municipal',
-    count: 'Varía por municipio (entre 12 y 20 miembros)',
+    count: 'Varía según la población (generalmente 12 a 16 miembros)',
     term: 'Término: 4 años',
     salary: 'Varía (~$12,000–$25,000/año)',
     powers: [
@@ -91,8 +91,8 @@ const officials = [
       'Aprueban y fiscalizan el presupuesto propuesto por el alcalde/alcaldesa.',
       'Regulan zonificación, ruido, permisos de negocio y temas locales.',
       'Pueden investigar al gobierno municipal.',
+      'Solo ellos pueden destituir a un legislador municipal ("residenciamiento") — los ciudadanos no tienen recall.',
       'El cuerpo legislativo más cercano y accesible a la ciudadanía.',
-      'Sus decisiones afectan directamente tu barrio y comunidad.',
     ],
   },
 ]
