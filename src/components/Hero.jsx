@@ -10,7 +10,8 @@ export default function Hero() {
 
         <h1 className="hero__title">
           SI VOTAS,
-          <span className="line-red">TE VOTAS.</span>
+          <span className="line-red">TE VOTAS</span>
+          <span className="line-punch">Y LOS VOTAMOS.</span>
         </h1>
 
         <p className="hero__subtitle">

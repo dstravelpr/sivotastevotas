@@ -1,4 +1,4 @@
-# Si Votas, Te Votas — Vota Boricua
+# Si Votas, Te Votas y Los Votamos — Vota Boricua
 
 > Movimiento ciudadano educativo y apartidista para aumentar la participación electoral en Puerto Rico de cara a las elecciones generales del 7 de noviembre de 2028. No estamos afiliados a ningún partido político ni candidato.
 
@@ -23,6 +23,18 @@ directamente con el voto.
   legislativa
 - El registro de votantes es gratuito en ceepur.org (CEE)
 - La CEE generalmente cierra el registro ~50 días antes de las elecciones generales
+- En Puerto Rico NO existe la revocatoria de mandato (recall) ciudadana. El único
+  mecanismo de destitución es el residenciamiento, un proceso interno entre pares
+  (para legisladores municipales: iniciado por 1/3 de la Legislatura Municipal,
+  Código Municipal Ley 107-2020, 21 LPRA § 7050)
+- Crisis del agua 2026: tras meses de averías en el Superacueducto y la planta
+  Sergio Cuevas, en julio se declaró emergencia por sequía y comenzó racionamiento
+  de hasta 48 horas en Canóvanas y Río Grande. La Junta de Gobierno de la AAA la
+  nombra el gobernador
+- Proyecto Esencia (Cabo Rojo): megaproyecto de ~$2,000 millones sobre ~2,000
+  cuerdas en Los Pozos, frente a la bahía de Boquerón. La AAA le negó la conexión
+  al sistema público de agua; requeriría 1.25–2 millones de galones diarios. La
+  OGPe aprobó su consulta de ubicación el 1 de agosto de 2026 sin vistas públicas
 
 ## Secciones principales
 

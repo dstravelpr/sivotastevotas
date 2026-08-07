@@ -1,7 +1,7 @@
 import Icon from './Icon'
 
 const issues = [
-  { icon: 'droplet', title: 'Crisis del Agua', desc: 'Semanas de crisis: averías en el Superacueducto, roturas adicionales y hasta 180,000 abonados con interrupciones por trabajos en Carraízo y la planta Sergio Cuevas. Restaurantes, hoteles y hogares operando sin agua. Décadas de falta de inversión en la AAA son una decisión política — y la directiva la nombra el gobierno que TÚ eliges.', urgent: true },
+  { icon: 'droplet', title: 'Racionamiento de Agua', desc: 'Emergencia declarada por sequía y racionamiento de hasta 48 horas en Canóvanas y Río Grande — con aviso de que puede extenderse. Antes fueron meses de averías en el Superacueducto y la planta Sergio Cuevas. La sequía es natural; una infraestructura que no la resiste es una decisión política. La Junta de Gobierno de la AAA la nombra quien gobierna.', urgent: true },
   { icon: 'bolt', title: 'Energía Eléctrica', desc: 'El gobierno demandó para cancelar el contrato de LUMA y LUMA contrademandó — alega que salirse costaría $4,500 millones. Los apagones han aumentado 30% en 3 años. Quién resuelve este pleito y qué modelo energético sigue lo decide el gobierno que elijas.' },
   { icon: 'economy', title: 'Crisis Económica', desc: 'La Junta de Supervisión Fiscal controla el presupuesto. El costo de vida, los empleos y la deuda pública requieren líderes con visión y fuerza negociadora.' },
   { icon: 'landmark', title: 'Estatus Político', desc: 'Estadidad, ELA mejorado o independencia — el debate más largo de nuestra historia. Los representantes que elijas determinarán cuánto avanza esta conversación en Washington.' },
