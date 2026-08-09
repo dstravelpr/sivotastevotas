@@ -1037,6 +1037,30 @@ body {
   color: rgba(255,255,255,0.65);
 }
 .norecall__body strong { color: rgba(255,255,255,0.9); }
+.norecall__proof {
+  max-width: 62ch;
+  margin: 0 auto 1.4rem;
+  padding: 1.1rem 1.3rem;
+  border-left: 3px solid var(--red);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  background: rgba(255,255,255,0.04);
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.62);
+}
+.norecall__proof strong { color: rgba(255,255,255,0.9); }
+.norecall__proof-label {
+  display: block;
+  font-family: var(--f-head);
+  font-weight: 900;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 0.4rem;
+}
+
 .norecall__punch {
   font-family: var(--f-head);
   font-weight: 900;

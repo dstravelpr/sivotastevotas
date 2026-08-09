@@ -96,6 +96,12 @@ export default function VotateSection() {
             Una vez electo, solo sus propios colegas pueden destituirlo mediante
             &ldquo;residenciamiento&rdquo; — un proceso interno que casi nunca ocurre.
           </p>
+          <p className="norecall__proof">
+            <span className="norecall__proof-label">La prueba: el Verano del &rsquo;19</span>
+            La única vez que el pueblo sacó a un gobernador, hizo falta paralizar el país
+            durante casi dos semanas con cientos de miles en la calle. Y ni así lo destituyeron:
+            Rosselló <strong>renunció</strong>. Esa es la alternativa cuando no hay revocación.
+          </p>
           <p className="norecall__punch">
             No hay botón de deshacer. Tu voto es tu única herramienta — úsala bien la primera vez.
           </p>
