@@ -1469,6 +1469,16 @@ body {
   padding: 1.6rem 1.75rem 2rem;
   height: 100%;
 }
+/* Full-width featured case: artwork beside the text */
+.case-card--wide {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(220px, 33%) 1fr;
+  gap: 1.75rem;
+  align-items: start;
+}
+.case-card--wide .case-card__art { margin-bottom: 0; }
+
 /* Protest banner artwork sits on a light "poster" surface */
 .case-card__art {
   background: #F2F1EE;
@@ -1493,10 +1503,20 @@ body {
 .case-tie__punch {
   font-family: var(--f-head);
   font-weight: 900;
-  font-size: clamp(1.6rem, 4vw, 2.6rem);
+  font-size: clamp(1.8rem, 4.5vw, 3rem);
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--red);
+  line-height: 1.05;
+}
+.case-tie__sub {
+  font-family: var(--f-head);
+  font-weight: 900;
+  font-size: clamp(1.05rem, 2.4vw, 1.6rem);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.85);
+  margin-top: 0.35rem;
 }
 .case-card__tag {
   display: inline-block;
@@ -1636,6 +1656,7 @@ body {
   .power-chain__arrow { transform: rotate(90deg); justify-content: center; padding: 0.25rem 0; }
   .case-grid { grid-template-columns: 1fr; }
   .case-card { padding: 1.4rem 1.25rem 1.75rem; }
+  .case-card--wide { grid-template-columns: 1fr; gap: 1.4rem; }
   .accountability { padding: 4.5rem 1.25rem; }
   .section { padding: 4rem 1.5rem; }
   .comparison-grid { grid-template-columns: 1fr; }

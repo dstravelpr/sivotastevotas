@@ -64,6 +64,68 @@ export function ExigimosAgua() {
   )
 }
 
+/* ── ¿Y LA LUZ? ────────────────────────────────────────────────
+   Dead bulb with a snapped filament — the blackout complaint
+   everyone in PR already says out loud.                          */
+export function YLaLuz() {
+  return (
+    <svg
+      viewBox="0 0 440 210"
+      className="protest-art"
+      role="img"
+      aria-label="Pancarta de protesta: ¿Y la luz?"
+    >
+      {/* dead rays — short, gray, going nowhere */}
+      <g stroke="#9A9A9A" strokeWidth="6" strokeLinecap="round" opacity="0.55">
+        <path d="M95 16v-12" />
+        <path d="M46 34l-9-9" />
+        <path d="M144 34l9-9" />
+        <path d="M28 84H14" />
+        <path d="M162 84h14" />
+      </g>
+
+      {/* glass */}
+      <circle cx="95" cy="80" r="45" fill="#1A1A1A" />
+      <circle cx="95" cy="80" r="45" fill="none" stroke="#111111" strokeWidth="5" />
+      {/* faint highlight so it still reads as glass */}
+      <path d="M68 62a32 32 0 0 1 20-19" fill="none" stroke="#FFFFFF" strokeWidth="5" strokeLinecap="round" opacity="0.18" />
+
+      {/* snapped filament */}
+      <g stroke="#CF0A2C" strokeWidth="5" fill="none" strokeLinecap="round">
+        <path d="M80 104V88l7-16 6 14" />
+        <path d="M110 104V88l-6-14" />
+      </g>
+      {/* break sparks */}
+      <g stroke="#CF0A2C" strokeWidth="3.5" strokeLinecap="round" opacity="0.9">
+        <path d="M96 60l5-7" />
+        <path d="M101 66l8-2" />
+      </g>
+
+      {/* cracks */}
+      <g stroke="#6E6E6E" strokeWidth="3" fill="none" strokeLinecap="round">
+        <path d="M62 66l14 10-8 12" />
+        <path d="M122 100l-11-8" />
+      </g>
+
+      {/* screw base */}
+      <g fill="#111111">
+        <path d="M79 118h32v8H79z" />
+        <path d="M81 130h28v8H81z" />
+        <path d="M84 142h22v9a6 6 0 0 1-6 6h-10a6 6 0 0 1-6-6z" />
+      </g>
+
+      {/* lettering */}
+      <g fontFamily={HEAD} fontWeight="900" fill="#111111" transform="skewX(-7)">
+        <text x="192" y="84" fontSize="58" letterSpacing="1">¿Y LA</text>
+        <text x="198" y="164" fontSize="96" letterSpacing="2">LUZ?</text>
+      </g>
+
+      {/* red underline swoosh */}
+      <path d="M198 180c50-9 104-11 172-4-64 12-120 14-172 8z" fill="#CF0A2C" />
+    </svg>
+  )
+}
+
 /* ── NO A ESENCIA ──────────────────────────────────────────────
    Original artwork: Cabo Rojo cliffs + lighthouse behind a
    prohibition ring over luxury-development towers.               */

@@ -1,11 +1,11 @@
-import { ExigimosAgua, NoAEsencia } from './ProtestArt'
+import { ExigimosAgua, NoAEsencia, YLaLuz } from './ProtestArt'
 
 const chain = [
   { step: 'Tú', label: 'Tu Voto', sub: 'El día de las elecciones', color: 'red' },
   { step: '→', arrow: true },
   { step: 'Gobernador/a', label: 'Quien Eliges', sub: 'Jefe del poder ejecutivo', color: 'blue' },
   { step: '→', arrow: true },
-  { step: 'Agencias que Deciden Tu Agua y Tu Tierra', label: 'A Quienes Nombra', sub: 'AAA · OGPe · DRNA', color: 'red' },
+  { step: 'Agencias que Deciden Tu Agua, Tu Tierra y Tu Luz', label: 'A Quienes Nombra', sub: 'AAA · AEE · OGPe · DRNA', color: 'red' },
 ]
 
 export default function AccountabilitySection() {
@@ -17,8 +17,8 @@ export default function AccountabilitySection() {
           El Gobernador Nombra.<br />Tú Eliges al Gobernador.
         </h2>
         <p className="section__subtitle accountability__sub">
-          El gobernador o gobernadora nombra a quienes dirigen la AAA, la OGPe y el DRNA —
-          las agencias que deciden si sale agua por tu pluma y qué se construye en tu pueblo.
+          El gobernador o gobernadora nombra a quienes dirigen la AAA, la AEE, la OGPe y el DRNA —
+          las agencias que deciden si sale agua por tu pluma, si hay luz y qué se construye en tu pueblo.
           Algunos de esos puestos, como el Secretario de la Gobernación, ni siquiera pasan por
           confirmación de la Legislatura. Por eso tu voto por gobernador pesa tanto.
         </p>
@@ -91,14 +91,49 @@ export default function AccountabilitySection() {
               Fuentes: NotiCel, Telemundo PR, El Diario, La Perla del Sur, La Calle · Información de carácter público.
             </p>
           </article>
+
+          {/* ── Aguirre / Generación ── */}
+          <article className="case-card case-card--wide">
+            <div className="case-card__art"><YLaLuz /></div>
+            <div className="case-card__text">
+              <div className="case-card__tag">En Desarrollo · Agosto 2026</div>
+              <h3 className="case-card__title">$5,000 Millones y una Firma que Nadie Autorizó</h3>
+              <p className="case-card__body">
+                El gobierno contrató <strong>400 megavatios de generación temporera</strong> en la
+                Central Aguirre — un acuerdo valorado en unos <strong>$5,000 millones</strong>. La
+                empresa Enchanted Rock, cuya capacidad técnica y financiera fue determinante para
+                que el contrato se aprobara, confirmó que <strong>su nombre y su firma fueron usados
+                sin autorización</strong> en el proceso de contratación. Las otras dos empresas del
+                consorcio, Power Expectations y Reyes Contractor, no tenían experiencia comparable en
+                proyectos de esta escala. La Junta de Supervisión Fiscal calificó el asunto de
+                &ldquo;sumamente preocupante&rdquo;, dijo que debe investigarse, y evalúa
+                <strong> revocar la aprobación y referir el caso a las autoridades</strong>.
+                A 57 días de firmado no había progreso significativo, ni fianza de cumplimiento
+                (~$1,180 millones), ni un solo hito cumplido — y desde agosto de 2025 ya se había
+                advertido que la propuesta no evidenciaba capacidad financiera adecuada.
+              </p>
+              <p className="case-card__lesson">
+                Quien detectó esto fue la Junta de Supervisión Fiscal — que los boricuas
+                <strong> no elegimos</strong>. La Junta de Gobierno de la AEE, que autorizó la
+                contratación, <strong>sí</strong> la nombra quien gobierna. Cuando el control de
+                calidad tiene que venir de afuera, es porque el de adentro falló.
+              </p>
+              <p className="case-card__sources">
+                Fuentes: Bloomberg, Metro PR, El Nuevo Día · Información de carácter público.
+                Las alegaciones están bajo investigación y no constituyen una determinación de culpabilidad.
+              </p>
+            </div>
+          </article>
         </div>
 
-        {/* Cierre que une ambos casos */}
+        {/* Cierre que une los tres casos */}
         <div className="case-tie">
           <p className="case-tie__line">
-            A ti te racionan el agua. Al megaproyecto le buscan millones de galones.
+            Te racionan el agua. Al megaproyecto le buscan millones de galones.
+            Y un contrato de $5,000 millones se firma con un nombre que nadie autorizó.
           </p>
-          <p className="case-tie__punch">Las dos cosas las decide la misma gente.</p>
+          <p className="case-tie__punch">Tu agua. Tu tierra. Tu luz.</p>
+          <p className="case-tie__sub">Las tres las decide la misma gente.</p>
         </div>
 
         <div className="accountability__cta">
