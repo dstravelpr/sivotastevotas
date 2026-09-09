@@ -48,7 +48,9 @@ body {
   color: var(--dark);
   background: var(--white);
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
+  /* No -webkit-font-smoothing: antialiased. It is a no-op on Windows but
+     thins every glyph on iOS/macOS, which made the condensed headings look
+     weak on phones. Browser default keeps the strokes full. */
 }
 
 /* Big Shoulders Display requires explicit weight for full impact */
@@ -323,9 +325,9 @@ body {
 .section--red .section__eyebrow { color: rgba(255,255,255,0.75); }
 .section__title {
   font-family: var(--f-head);
-  font-size: clamp(3.2rem, 6.2vw, 5.2rem);
+  font-size: clamp(3.5rem, 6.2vw, 5.2rem);
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   margin-bottom: 1.25rem;
   text-align: center;
 }
