@@ -7,7 +7,11 @@
   --gray: #F4F4F4;
   --gray-mid: #888888;
   --max-w: 1200px;
-  --f-head: 'Big Shoulders Display', Impact, sans-serif;
+  /* Fallbacks matter: iOS Lockdown Mode, blockers and slow links can stop the
+     web font from loading. iOS has no Impact, so lead with condensed faces
+     that actually ship per platform before the generic. */
+  --f-head: 'Big Shoulders Display', 'Avenir Next Condensed', 'Roboto Condensed',
+            'Arial Narrow', Impact, Haettenschweiler, sans-serif;
   --f-body: 'Inter', system-ui, sans-serif;
   --border-dark: rgba(255, 255, 255, 0.12);
   /* Corner radius scale */
