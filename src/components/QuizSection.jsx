@@ -5,11 +5,11 @@ const QUESTIONS = [
     q: '¿Cuántos electores registrados NO votaron en las elecciones de 2024?',
     options: ['Como el 10%', 'Como el 25%', 'Como el 42%', 'Menos del 5%'],
     correct: 2,
-    explain: 'El 42% — casi 1 de cada 2 boricuas registrados no fue a votar. Esos votos ausentes deciden quién gobierna.',
+    explain: 'El 42%, casi 1 de cada 2 boricuas registrados no fue a votar. Esos votos ausentes deciden quién gobierna.',
   },
   {
     q: '¿Quién nombra a la directiva de la AAA, la agencia responsable del agua potable?',
-    options: ['El alcalde de cada pueblo', 'El gobernador/a que tú eliges', 'El gobierno federal', 'Nadie — es privada'],
+    options: ['El alcalde de cada pueblo', 'El gobernador/a que tú eliges', 'El gobierno federal', 'Nadie, es privada'],
     correct: 1,
     explain: 'El gobernador/a nombra la Junta de Gobierno de la AAA. La crisis del agua que vivimos hoy es consecuencia directa de décadas de decisiones políticas.',
   },
@@ -17,19 +17,19 @@ const QUESTIONS = [
     q: '¿Por cuántos votos se han decidido alcaldías en Puerto Rico?',
     options: ['Miles de votos siempre', 'Menos de 300 votos', 'Nunca ha estado cerca', 'Por sorteo'],
     correct: 1,
-    explain: 'Ha pasado: alcaldías decididas por menos de 300 votos. Y en 2024, la gobernadora fue electa con solo el 39% de los votos — la minoría que votó decidió por todos. En una elección local, TU voto literalmente puede decidir el resultado.',
+    explain: 'Ha pasado: alcaldías decididas por menos de 300 votos. Y en 2024, la gobernadora fue electa con solo el 39% de los votos, la minoría que votó decidió por todos. En una elección local, TU voto literalmente puede decidir el resultado.',
   },
   {
     q: '¿Cuántos votos tiene Puerto Rico en el pleno del Congreso federal?',
     options: ['2 senadores y 5 representantes', '1 voto', '0 votos', '4 votos'],
     correct: 2,
-    explain: 'Cero. El Comisionado Residente habla en la Cámara pero NO vota en el pleno. Por eso cada voto local cuenta el doble — es el único poder directo que tienes.',
+    explain: 'Cero. El Comisionado Residente habla en la Cámara pero NO vota en el pleno. Por eso cada voto local cuenta el doble, es el único poder directo que tienes.',
   },
   {
     q: '¿Cuánto dinero administra el gobernador/a que eliges con tu voto?',
     options: ['$500 millones', '$1 billón', '$13 billones al año', 'Solo fondos federales'],
     correct: 2,
-    explain: 'El presupuesto de Puerto Rico ronda los $13 billones anuales. Salud, escuelas, agua, luz, carreteras — tu voto decide quién lo controla.',
+    explain: 'El presupuesto de Puerto Rico ronda los $13 billones anuales. Salud, escuelas, agua, luz, carreteras, tu voto decide quién lo controla.',
   },
 ]
 
@@ -37,7 +37,7 @@ const RESULTS = [
   {
     min: 0,
     title: 'Tu voto te necesita 📚',
-    msg: 'No conocías el poder que tienes — y eso es exactamente lo que les conviene a los que no quieren que votes. Ahora ya lo sabes.',
+    msg: 'No conocías el poder que tienes, y eso es exactamente lo que les conviene a los que no quieren que votes. Ahora ya lo sabes.',
   },
   {
     min: 3,
@@ -91,7 +91,7 @@ export default function QuizSection() {
             <div className="quiz-intro">
               <p className="quiz-intro__text">
                 5 preguntas. 1 minuto. Descubre cuánto sabes del poder real
-                que tienes en tus manos — los resultados te van a sorprender.
+                que tienes en tus manos, los resultados te van a sorprender.
               </p>
               <button className="btn btn--red quiz-btn" onClick={() => setStep(0)}>
                 Empezar el Quiz →

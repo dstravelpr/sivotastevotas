@@ -1,17 +1,17 @@
 const yesItems = [
   'Tienes voz directa en quién maneja el presupuesto de $13 billones de Puerto Rico.',
   'Decides quién nombra a los jueces del Tribunal Supremo y los secretarios de estado.',
-  'Influyes en el alcalde/alcaldesa que da los servicios de tu municipio — agua, basura, permisos.',
+  'Influyes en el alcalde/alcaldesa que da los servicios de tu municipio, agua, basura, permisos.',
   'Participas en el debate sobre el estatus político de Puerto Rico con representación real.',
   'Envías un mensaje claro a los políticos: la ciudadanía está atenta y activa.',
   'Proteges los fondos federales negociados por el Comisionado Residente en Washington.',
 ]
 
 const noItems = [
-  'Otro elector — que puede tener intereses distintos a los tuyos — decide por ti.',
+  'Otro elector, que puede tener intereses distintos a los tuyos, decide por ti.',
   'Los politicos saben que no votas y no tienen incentivo para servirte.',
   'Las decisiones sobre tu vecindario, tus escuelas y tus carreteras se toman sin ti.',
-  'La inercia favorece a quienes están en el poder — el cambio no ocurre sin participación.',
+  'La inercia favorece a quienes están en el poder, el cambio no ocurre sin participación.',
   'Los fondos federales y contratos pueden ir a comunidades con mayor participación electoral.',
   'Tu abstención es contada como aprobación del status quo.',
 ]

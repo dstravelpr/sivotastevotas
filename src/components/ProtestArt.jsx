@@ -65,7 +65,7 @@ export function ExigimosAgua() {
 }
 
 /* ── ¿Y LA LUZ? ────────────────────────────────────────────────
-   Dead bulb with a snapped filament — the blackout complaint
+   Dead bulb with a snapped filament, the blackout complaint
    everyone in PR already says out loud.                          */
 export function YLaLuz() {
   return (
@@ -75,7 +75,7 @@ export function YLaLuz() {
       role="img"
       aria-label="Pancarta de protesta: ¿Y la luz?"
     >
-      {/* dead rays — short, gray, going nowhere */}
+      {/* dead rays, short, gray, going nowhere */}
       <g stroke="#9A9A9A" strokeWidth="6" strokeLinecap="round" opacity="0.55">
         <path d="M95 16v-12" />
         <path d="M46 34l-9-9" />
@@ -135,7 +135,7 @@ export function NoAEsencia() {
       viewBox="0 0 440 210"
       className="protest-art"
       role="img"
-      aria-label="Pancarta de protesta: No a Esencia — Cabo Rojo no se vende"
+      aria-label="Pancarta de protesta: No a Esencia, Cabo Rojo no se vende"
     >
       {/* sea + cliff silhouette behind the emblem */}
       <g opacity="0.5">

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const SITE_URL = 'https://www.sivotastevotas.com'
-const SHARE_TEXT = 'Si Votas, Te Votas 🇵🇷 — Las razones para votar en las próximas elecciones de Puerto Rico'
+const SHARE_TEXT = 'Si Votas, Te Votas 🇵🇷. Las razones para votar en las próximas elecciones de Puerto Rico'
 
 export default function ShareSection() {
   const [copied, setCopied] = useState(false)
@@ -24,7 +24,7 @@ export default function ShareSection() {
         <h2 className="section__title">Comparte Esta Campaña</h2>
         <p className="section__subtitle">
           Cada persona que compartes puede ser un voto más. Una conversación
-          en WhatsApp, un post en Facebook — puede marcar la diferencia.
+          en WhatsApp, un post en Facebook, puede marcar la diferencia.
         </p>
 
         <div className="share-grid">

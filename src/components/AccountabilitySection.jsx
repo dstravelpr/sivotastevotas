@@ -17,7 +17,7 @@ export default function AccountabilitySection() {
           El Gobernador Nombra.<br />Tú Eliges al Gobernador.
         </h2>
         <p className="section__subtitle accountability__sub">
-          El gobernador o gobernadora nombra a quienes dirigen la AAA, la AEE, la OGPe y el DRNA —
+          El gobernador o gobernadora nombra a quienes dirigen la AAA, la AEE, la OGPe y el DRNA:
           las agencias que deciden si sale agua por tu pluma, si hay luz y qué se construye en tu pueblo.
           Algunos de esos puestos, como el Secretario de la Gobernación, ni siquiera pasan por
           confirmación de la Legislatura. Por eso tu voto por gobernador pesa tanto.
@@ -59,7 +59,7 @@ export default function AccountabilitySection() {
             </p>
             <p className="case-card__lesson">
               La sequía es natural. Una infraestructura que no aguanta una sequía
-              es <strong>una decisión política</strong> — décadas de no invertir.
+              es <strong>una decisión política</strong>, décadas de no invertir.
               La Junta de Gobierno de la AAA la nombra quien gobierna.
             </p>
             <p className="case-card__sources">
@@ -85,7 +85,7 @@ export default function AccountabilitySection() {
             </p>
             <p className="case-card__lesson">
               Los permisos no caen del cielo. La OGPe, el DRNA y las leyes que los rigen
-              dependen de <strong>quién gobierna y quién legisla</strong> — y a ambos los eliges tú.
+              dependen de <strong>quién gobierna y quién legisla</strong>, y a ambos los eliges tú.
             </p>
             <p className="case-card__sources">
               Fuentes: NotiCel, Telemundo PR, El Diario, La Perla del Sur, La Calle · Información de carácter público.
@@ -100,7 +100,7 @@ export default function AccountabilitySection() {
               <h3 className="case-card__title">$5,000 Millones y una Firma que Nadie Autorizó</h3>
               <p className="case-card__body">
                 El gobierno contrató <strong>400 megavatios de generación temporera</strong> en la
-                Central Aguirre — un acuerdo valorado en unos <strong>$5,000 millones</strong>. La
+                Central Aguirre, un acuerdo valorado en unos <strong>$5,000 millones</strong>. La
                 empresa Enchanted Rock, cuya capacidad técnica y financiera fue determinante para
                 que el contrato se aprobara, confirmó que <strong>su nombre y su firma fueron usados
                 sin autorización</strong> en el proceso de contratación. Las otras dos empresas del
@@ -109,11 +109,11 @@ export default function AccountabilitySection() {
                 &ldquo;sumamente preocupante&rdquo;, dijo que debe investigarse, y evalúa
                 <strong> revocar la aprobación y referir el caso a las autoridades</strong>.
                 A 57 días de firmado no había progreso significativo, ni fianza de cumplimiento
-                (~$1,180 millones), ni un solo hito cumplido — y desde agosto de 2025 ya se había
+                (~$1,180 millones), ni un solo hito cumplido, y desde agosto de 2025 ya se había
                 advertido que la propuesta no evidenciaba capacidad financiera adecuada.
               </p>
               <p className="case-card__lesson">
-                Quien detectó esto fue la Junta de Supervisión Fiscal — que los boricuas
+                Quien detectó esto fue la Junta de Supervisión Fiscal, que los boricuas
                 <strong> no elegimos</strong>. La Junta de Gobierno de la AEE, que autorizó la
                 contratación, <strong>sí</strong> la nombra quien gobierna. Cuando el control de
                 calidad tiene que venir de afuera, es porque el de adentro falló.

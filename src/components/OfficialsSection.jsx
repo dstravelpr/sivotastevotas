@@ -3,7 +3,7 @@ const officials = [
     level: 'Ejecutivo Estatal',
     levelClass: 'level--estatal',
     title: 'Gobernador/a',
-    count: '1 puesto — toda la isla',
+    count: '1 puesto en toda la isla',
     term: 'Término: 4 años',
     salary: '~$70,000/año',
     powers: [
@@ -19,13 +19,13 @@ const officials = [
     level: 'Representación Federal',
     levelClass: 'level--federal',
     title: 'Comisionado/a Residente',
-    count: '1 puesto — toda la isla',
+    count: '1 puesto en toda la isla',
     term: 'Término: 4 años (único oficial con término de 4 años en el Congreso)',
     salary: '~$174,000/año',
     powers: [
       'Único representante de Puerto Rico ante el Congreso de los EE.UU.',
       'Habla en la Cámara de Representantes federal, pero NO vota en el pleno.',
-      'Sí vota en comités del Congreso — donde se escriben las leyes.',
+      'Sí vota en comités del Congreso, donde se escriben las leyes.',
       'Gestiona fondos federales críticos: FEMA, HUD, Medicare, Medicaid.',
       'Cabildea por intereses de Puerto Rico en Washington D.C.',
       'Es esencial para los fondos de reconstrucción post-María aún pendientes.',
@@ -58,7 +58,7 @@ const officials = [
       'Cámara baja de la Asamblea Legislativa de Puerto Rico.',
       '40 representantes por distrito + 11 por acumulación.',
       'Originan todos los proyectos de ley relacionados con gastos e impuestos.',
-      'Aprueban el presupuesto del gobierno — cada dólar que se gasta.',
+      'Aprueban el presupuesto del gobierno, cada dólar que se gasta.',
       'Fiscalizan el ejecutivo y pueden investigar al gobierno.',
       'Aprueban o rechazan nombramientos del Gobernador.',
     ],
@@ -67,14 +67,14 @@ const officials = [
     level: 'Ejecutivo Municipal',
     levelClass: 'level--municipal',
     title: 'Alcalde/sa',
-    count: '78 alcaldes — uno por municipio',
+    count: '78 alcaldes: uno por municipio',
     term: 'Término: 4 años',
     salary: 'Varía por municipio (~$55,000–$85,000/año)',
     powers: [
       'Jefe/a del poder ejecutivo de tu municipio.',
       'Administra servicios directos: recogido de basura, agua, parques, cementerios.',
       'Otorga permisos de construcción, uso de terreno y licencias.',
-      'Maneja el presupuesto municipal — dinero de tus impuestos municipales.',
+      'Maneja el presupuesto municipal, dinero de tus impuestos municipales.',
       'Desarrolla proyectos de vivienda, infraestructura y desarrollo económico local.',
       'En muchos municipios, la diferencia entre candidatos es de cientos de votos.',
     ],
@@ -91,7 +91,7 @@ const officials = [
       'Aprueban y fiscalizan el presupuesto propuesto por el alcalde/alcaldesa.',
       'Regulan zonificación, ruido, permisos de negocio y temas locales.',
       'Pueden investigar al gobierno municipal.',
-      'Solo ellos pueden destituir a un legislador municipal ("residenciamiento") — los ciudadanos no tienen recall.',
+      'Solo ellos pueden destituir a un legislador municipal ("residenciamiento"), los ciudadanos no tienen recall.',
       'El cuerpo legislativo más cercano y accesible a la ciudadanía.',
     ],
   },
@@ -106,7 +106,7 @@ export default function OfficialsSection() {
           <h2 className="section__title">¿Quién Gobierna Puerto Rico?</h2>
           <p className="section__subtitle">
             Cada cuatro años, elegimos a estas personas para que tomen decisiones en nuestro nombre.
-            Conoce exactamente qué poder tiene cada uno — y por qué importa quién gana.
+            Conoce exactamente qué poder tiene cada uno, y por qué importa quién gana.
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 /**
- * Campaign Logo — "La V Boricua"
+ * Campaign Logo, "La V Boricua"
  *
  * Two triangles (red left / blue right) converging to a single bottom point.
  * A white PR star is superimposed on top where both colors meet.
@@ -22,11 +22,11 @@ export default function Logo({
       aria-hidden="true"
       style={{ display: 'block', flexShrink: 0 }}
     >
-      {/* Left arm — RED triangle */}
+      {/* Left arm, RED triangle */}
       <polygon points="10,10 96,10 140,290" fill="#CF0A2C" />
-      {/* Right arm — Traditional PR light blue */}
+      {/* Right arm, Traditional PR light blue */}
       <polygon points="270,10 184,10 140,290" fill="#3F76BC" />
-      {/* White PR star — superimposed on top of both arms */}
+      {/* White PR star, superimposed on top of both arms */}
       <polygon points={starPoints} fill="#FFFFFF" />
     </svg>
   )

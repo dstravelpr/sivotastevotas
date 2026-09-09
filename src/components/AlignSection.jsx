@@ -4,7 +4,7 @@ const checklist = [
   {
     icon: 'folder',
     q: '¿Cuál es su récord?',
-    desc: 'Investiga su historial real — lo que ha hecho, no lo que promete. Las acciones pasadas predicen las futuras.',
+    desc: 'Investiga su historial real, lo que ha hecho, no lo que promete. Las acciones pasadas predicen las futuras.',
   },
   {
     icon: 'money',
@@ -32,7 +32,7 @@ export default function AlignSection() {
           Vota por la Persona,<br />No por el Partido
         </h2>
         <p className="section__subtitle align__sub">
-          El gobierno de Puerto Rico vive una lucha de poder interna — querellas,
+          El gobierno de Puerto Rico vive una lucha de poder interna, querellas,
           investigaciones y casos de corrupción. Desde 2020, el FBI ha arrestado a
           alcaldes, legisladores y funcionarios de <strong>distintos partidos</strong>.
           Ningún color te protege de la corrupción. Tu defensa más poderosa es simple:
@@ -54,7 +54,7 @@ export default function AlignSection() {
         <div className="align-closing">
           <p className="align-closing__lead">El partido es una etiqueta. La persona es quien gobierna.</p>
           <p className="align-closing__big">
-            Vota por quien mejor se alinee con <span className="accent">tus valores</span> —
+            Vota por quien mejor se alinee con <span className="accent">tus valores</span>,
             no por el color de la papeleta.
           </p>
           <a href="#registrate" className="btn btn--red align-closing__cta">Regístrate y Vota Informado/a</a>

@@ -1,10 +1,10 @@
 import Icon from './Icon'
 
 const issues = [
-  { icon: 'droplet', title: 'Racionamiento de Agua', desc: 'Emergencia declarada por sequía y racionamiento de hasta 48 horas en Canóvanas y Río Grande — con aviso de que puede extenderse. Antes fueron meses de averías en el Superacueducto y la planta Sergio Cuevas. La sequía es natural; una infraestructura que no la resiste es una decisión política. La Junta de Gobierno de la AAA la nombra quien gobierna.', urgent: true },
+  { icon: 'droplet', title: 'Racionamiento de Agua', desc: 'Emergencia declarada por sequía y racionamiento de hasta 48 horas en Canóvanas y Río Grande, con aviso de que puede extenderse. Antes fueron meses de averías en el Superacueducto y la planta Sergio Cuevas. La sequía es natural; una infraestructura que no la resiste es una decisión política. La Junta de Gobierno de la AAA la nombra quien gobierna.', urgent: true },
   { icon: 'bolt', title: 'Energía Eléctrica', desc: 'El gobierno demandó para cancelar el contrato de LUMA y LUMA contrademandó. Los apagones subieron 30% en 3 años. Y un contrato de $5,000 millones para generación temporera en Aguirre está bajo escrutinio tras confirmarse que se usó el nombre y la firma de una empresa sin autorización. Quién arregla esto lo decides tú.', urgent: true },
   { icon: 'economy', title: 'Crisis Económica', desc: 'La Junta de Supervisión Fiscal controla el presupuesto. El costo de vida, los empleos y la deuda pública requieren líderes con visión y fuerza negociadora.' },
-  { icon: 'landmark', title: 'Estatus Político', desc: 'Estadidad, ELA mejorado o independencia — el debate más largo de nuestra historia. Los representantes que elijas determinarán cuánto avanza esta conversación en Washington.' },
+  { icon: 'landmark', title: 'Estatus Político', desc: 'Estadidad, ELA mejorado o independencia, el debate más largo de nuestra historia. Los representantes que elijas determinarán cuánto avanza esta conversación en Washington.' },
   { icon: 'health', title: 'Salud Pública', desc: 'Hospitales públicos subfinanciados, escasez de médicos y la fragilidad del sistema de salud. El gobernador/a asigna el presupuesto que determina la calidad de atención que recibes.' },
   { icon: 'storm', title: 'Reconstrucción Post-María', desc: 'Billones en fondos federales de HUD y FEMA siguen sin llegar a las comunidades. La gestión de estos fondos requiere liderazgo efectivo y honesto.' },
   { icon: 'shield', title: 'Seguridad Ciudadana', desc: 'Crimen, violencia doméstica y corrupción policial son temas urgentes. El gobernador/a nombra al Superintendente de Policía y define las prioridades de seguridad.' },
@@ -18,7 +18,7 @@ export default function IssuesSection() {
         <span className="section__eyebrow">Lo Que Está en Juego</span>
         <h2 className="section__title">Los Temas que Definen Estas Elecciones</h2>
         <p className="section__subtitle">
-          Cada uno de estos problemas tiene una solución — y esa solución pasa
+          Cada uno de estos problemas tiene una solución, y esa solución pasa
           por las personas que elegimos el día de las elecciones.
         </p>
 

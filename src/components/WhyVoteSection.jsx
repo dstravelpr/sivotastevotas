@@ -2,7 +2,7 @@ const reasons = [
   {
     num: '01',
     title: 'El Estatus de PR se Decide en las Urnas',
-    desc: 'La estadidad, la independencia o el ELA — ninguna opción avanza sin representantes que luchen por ella en Washington. El Comisionado Residente que eliges es tu única voz en el Congreso federal.',
+    desc: 'La estadidad, la independencia o el ELA, ninguna opción avanza sin representantes que luchen por ella en Washington. El Comisionado Residente que eliges es tu única voz en el Congreso federal.',
   },
   {
     num: '02',
@@ -37,7 +37,7 @@ const reasons = [
   {
     num: '08',
     title: 'Tu Voto Pesa Más de lo que Crees',
-    desc: 'En 2024, solo el 58% de los electores registrados votó. Eso significa que 1 de cada 2 boricuas le entregó su poder a otro. Tu voto tiene mucho más peso de lo que imaginas — especialmente a nivel local.',
+    desc: 'En 2024, solo el 58% de los electores registrados votó. Eso significa que 1 de cada 2 boricuas le entregó su poder a otro. Tu voto tiene mucho más peso de lo que imaginas, especialmente a nivel local.',
   },
 ]
 

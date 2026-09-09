@@ -23,7 +23,7 @@ export default function Footer() {
         <a href="#votate">¡Vótate!</a>
         <a href="#historia">Historia Electoral</a>
         <a href="#registrate">Regístrate</a>
-        <a href="https://www.ceepur.org" target="_blank" rel="noopener noreferrer">CEE — Registro Oficial</a>
+        <a href="https://www.ceepur.org" target="_blank" rel="noopener noreferrer">CEE: Registro Oficial</a>
       </div>
 
       <div className="footer__about" id="sobre">
@@ -32,7 +32,7 @@ export default function Footer() {
           <strong>Vota Boricua</strong> es una iniciativa ciudadana independiente, educativa y
           apartidista, creada en Puerto Rico para combatir el abstencionismo electoral.
           No estamos afiliados a ningún partido político ni candidato, no recibimos fondos
-          de comités políticos, y no le decimos a nadie por quién votar — solo que vote.
+          de comités políticos, y no le decimos a nadie por quién votar, solo que vote.
         </p>
         <p>
           Los datos electorales que publicamos provienen de fuentes públicas y verificables:
@@ -42,7 +42,7 @@ export default function Footer() {
         </p>
       </div>
 
-      <p className="footer__copy">© {new Date().getFullYear()} SiVotasTeVotas.com — Todos los derechos reservados</p>
+      <p className="footer__copy">© {new Date().getFullYear()} SiVotasTeVotas.com · Todos los derechos reservados</p>
       <p className="footer__disclaimer">
         Proyecto educativo y apartidista. No afiliado a ningún partido político ni candidato.
         Su único propósito es promover la participación electoral en Puerto Rico.

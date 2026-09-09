@@ -4,12 +4,12 @@ const powerCards = [
   {
     icon: 'chart',
     title: 'Los Políticos Saben Quién Vota',
-    desc: 'Los partidos tienen bases de datos detalladas de cada elector. Saben si votaste en las últimas 3 elecciones. Los precintos con alta participación reciben más atención, más servicios y más inversión. Si no votas, eres invisible en esa base de datos — y ellos lo saben.',
+    desc: 'Los partidos tienen bases de datos detalladas de cada elector. Saben si votaste en las últimas 3 elecciones. Los precintos con alta participación reciben más atención, más servicios y más inversión. Si no votas, eres invisible en esa base de datos, y ellos lo saben.',
   },
   {
     icon: 'ballot',
     title: 'El Margen de Victoria Puede Ser Tuyo',
-    desc: 'En 2024, la gobernadora fue electa con solo el 39% de los votos — mientras el 42% de los electores se quedó en casa. Los que no votaron eran más que suficientes para cambiar el resultado. Y en los municipios, ha habido alcaldías decididas por menos de 300 votos.',
+    desc: 'En 2024, la gobernadora fue electa con solo el 39% de los votos, mientras el 42% de los electores se quedó en casa. Los que no votaron eran más que suficientes para cambiar el resultado. Y en los municipios, ha habido alcaldías decididas por menos de 300 votos.',
   },
   {
     icon: 'cycle',
@@ -19,7 +19,7 @@ const powerCards = [
   {
     icon: 'target',
     title: 'Tu Abstención Es Su Mayor Aliado',
-    desc: 'Un funcionario que sabe que no votas no tiene incentivo para servirte. ¿Para qué arreglar tus calles si no apareces en las urnas? El abstencionismo no es neutralidad — es un cheque en blanco para quienes están en el poder. Ellos cuentan con que no vayas.',
+    desc: 'Un funcionario que sabe que no votas no tiene incentivo para servirte. ¿Para qué arreglar tus calles si no apareces en las urnas? El abstencionismo no es neutralidad, es un cheque en blanco para quienes están en el poder. Ellos cuentan con que no vayas.',
   },
 ]
 
@@ -49,7 +49,7 @@ const voteConnections = [
     vote: 'Tu Voto',
     arrow: '→',
     post: 'Comisionado/a Residente',
-    controls: 'Tu única voz en el Congreso federal — gestiona fondos de Washington',
+    controls: 'Tu única voz en el Congreso federal, gestiona fondos de Washington',
     color: 'blue',
   },
 ]
@@ -67,7 +67,7 @@ export default function VotateSection() {
             <span className="votate-title__white">SI VOTAS.</span>
           </h2>
           <p className="votate-subtitle">
-            Tu papeleta no es un papel — es el único instrumento legal con el que los
+            Tu papeleta no es un papel, es el único instrumento legal con el que los
             ciudadanos controlan a quienes los gobiernan. Ellos llegan al poder
             porque tú los pusiste. Y tú los puedes sacar.
           </p>
@@ -94,7 +94,7 @@ export default function VotateSection() {
             A diferencia de otros lugares, aquí los ciudadanos <strong>no pueden revocar</strong> a
             un funcionario electo. No hay recogido de firmas, no hay referéndum de destitución.
             Una vez electo, solo sus propios colegas pueden destituirlo mediante
-            &ldquo;residenciamiento&rdquo; — un proceso interno que casi nunca ocurre.
+            &ldquo;residenciamiento&rdquo;, un proceso interno que casi nunca ocurre.
           </p>
           <p className="norecall__proof">
             <span className="norecall__proof-label">La prueba: el Verano del &rsquo;19</span>
@@ -103,7 +103,7 @@ export default function VotateSection() {
             Rosselló <strong>renunció</strong>. Esa es la alternativa cuando no hay revocación.
           </p>
           <p className="norecall__punch">
-            No hay botón de deshacer. Tu voto es tu única herramienta — úsala bien la primera vez.
+            No hay botón de deshacer. Tu voto es tu única herramienta, úsala bien la primera vez.
           </p>
         </div>
 
@@ -133,7 +133,7 @@ export default function VotateSection() {
             Tu papeleta es el contrato entre ciudadano y gobierno.
           </p>
           <p className="votate-closing__cta">
-            Si no cumplen — <strong>los votas.</strong>
+            Si no cumplen, <strong>los votas.</strong>
           </p>
         </div>
       </div>

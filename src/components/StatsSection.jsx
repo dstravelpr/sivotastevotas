@@ -24,7 +24,7 @@ const stats = [
     num: '$13B',
     numAccent: true,
     label: 'Presupuesto anual de PR',
-    note: 'El gobernador/a que eliges controla cómo se gasta cada dólar de este presupuesto — más los fondos federales pendientes.',
+    note: 'El gobernador/a que eliges controla cómo se gasta cada dólar de este presupuesto, más los fondos federales pendientes.',
     color: 'blue',
   },
 ]
@@ -38,7 +38,7 @@ export default function StatsSection() {
         <span className="section__eyebrow">Los Números No Mienten</span>
         <h2 className="section__title">El Costo de No Votar</h2>
         <p className="section__subtitle">
-          Cuando decides no votar, no te quedas neutral — le cedes tu poder a alguien más.
+          Cuando decides no votar, no te quedas neutral, le cedes tu poder a alguien más.
           Estos números muestran exactamente lo que está en juego.
         </p>
 

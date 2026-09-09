@@ -16,7 +16,7 @@ export default function Hero() {
 
         <p className="hero__subtitle">
           Tu silencio también es una decisión. Las próximas elecciones decidirán el rumbo
-          de Puerto Rico por los próximos cuatro años — y tú tienes el poder de cambiarlas.
+          de Puerto Rico por los próximos cuatro años, y tú tienes el poder de cambiarlas.
         </p>
 
         <div className="hero__actions">

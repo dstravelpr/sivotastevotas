@@ -335,7 +335,7 @@ body {
   max-width: 62ch;
   margin-left: auto;
   margin-right: auto;
-  opacity: 0.75;
+  opacity: 0.86;
   text-align: center;
 }
 
@@ -400,10 +400,11 @@ body {
   margin-top: 0.5rem;
 }
 .stat-card__note {
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.38);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.64);
   margin-top: 0.4rem;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 /* ===== COMPARISON ===== */
@@ -539,7 +540,7 @@ body {
 .timeline-item:nth-child(3n+2) .timeline-item__year { color: #4B82E8; }
 .timeline-item:nth-child(3n+3) .timeline-item__year { color: rgba(255,255,255,0.85); }
 .timeline-item__title { font-weight: 700; font-size: 1rem; margin: 0 0 0.4rem; color: var(--white); }
-.timeline-item__desc { font-size: 0.85rem; color: rgba(255,255,255,0.55); line-height: 1.6; }
+.timeline-item__desc { font-size: 0.95rem; font-weight: 500; color: rgba(255,255,255,0.72); line-height: 1.65; }
 
 /* When reveal is disabled (reduced motion), the line + dots must be visible by default */
 @media (prefers-reduced-motion: reduce) {
@@ -601,9 +602,9 @@ body {
   margin-bottom: 0.75rem;
 }
 .reason-card__desc {
-  font-size: 0.88rem;
-  line-height: 1.6;
-  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #4A4A4A;
 }
 
 /* ===== ISSUES SECTION ===== */
@@ -641,9 +642,10 @@ body {
   line-height: 1;
 }
 .issue-card__desc {
-  font-size: 0.85rem;
-  color: rgba(255,255,255,0.55);
-  line-height: 1.6;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.74);
+  line-height: 1.65;
 }
 .issue-card--urgent {
   background: rgba(207,10,44,0.1);
@@ -992,9 +994,10 @@ body {
   text-transform: uppercase;
 }
 .votate-card__desc {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 500;
   line-height: 1.7;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.74);
 }
 
 /* No-recall callout */
@@ -1032,7 +1035,8 @@ body {
 .norecall__body {
   max-width: 62ch;
   margin: 0 auto 1.1rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 1.7;
   color: rgba(255,255,255,0.65);
 }
@@ -1045,9 +1049,10 @@ body {
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
   background: rgba(255,255,255,0.04);
   text-align: left;
-  font-size: 0.9rem;
-  line-height: 1.65;
-  color: rgba(255,255,255,0.62);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.68;
+  color: rgba(255,255,255,0.74);
 }
 .norecall__proof strong { color: rgba(255,255,255,0.9); }
 .norecall__proof-label {
@@ -1565,9 +1570,10 @@ body {
 }
 .case-card__body,
 .case-card__lesson {
-  font-size: 0.94rem;
+  font-size: 0.97rem;
+  font-weight: 500;
   line-height: 1.7;
-  color: rgba(255,255,255,0.68);
+  color: rgba(255,255,255,0.78);
   margin-bottom: 1.1rem;
 }
 .case-card__body strong { color: rgba(255,255,255,0.92); }
@@ -1578,9 +1584,9 @@ body {
 }
 .case-card__lesson strong { color: var(--white); }
 .case-card__sources {
-  font-size: 0.72rem;
-  line-height: 1.5;
-  color: rgba(255,255,255,0.48);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.58);
   margin-top: 0.5rem;
 }
 .accountability__cta { margin-top: 3rem; }
@@ -1646,9 +1652,9 @@ body {
   line-height: 1.05;
 }
 .align-card__desc {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #4A4A4A;
 }
 .align-closing {
   max-width: 680px;
@@ -1690,6 +1696,21 @@ body {
   .votate-cards { grid-template-columns: 1fr; }
   .votate-connect-grid { grid-template-columns: 1fr; }
   .votate-hero { padding: 5rem 1.5rem 4rem; }
+  /* Body copy stays at 16px+ on phones so it never reads thin or washed out */
+  .issue-card__desc,
+  .votate-card__desc,
+  .timeline-item__desc,
+  .reason-card__desc,
+  .align-card__desc,
+  .norecall__proof,
+  .case-card__body,
+  .case-card__lesson,
+  .stat-card__note,
+  .votate-connect-card__controls,
+  .comparison-list li { font-size: 1rem; line-height: 1.65; }
+  .section__subtitle { font-size: 1.05rem; }
+  .case-card__sources { font-size: 0.85rem; }
+
   /* Tighter hero so the three-line headline + countdown still fit the fold */
   .hero__content { padding: 5rem 1.25rem 3rem; }
   .hero__subtitle { margin-top: 1.5rem; }

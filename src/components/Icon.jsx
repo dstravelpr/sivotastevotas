@@ -1,5 +1,5 @@
 /**
- * Line-icon set — 24×24, stroke = currentColor.
+ * Line-icon set, 24×24, stroke = currentColor.
  * Used across the informational card grids (Temas, ¡Vótate!, Vota por la Persona)
  * for a crisp, cohesive look. Color is inherited via currentColor.
  */

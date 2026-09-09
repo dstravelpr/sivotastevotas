@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-// Elecciones Generales de Puerto Rico — colegios abren 9:00 AM AST
+// Elecciones Generales de Puerto Rico, colegios abren 9:00 AM AST
 const ELECTION_DATE = new Date('2028-11-07T09:00:00-04:00')
 
 function getTimeLeft() {
@@ -15,7 +15,7 @@ function getTimeLeft() {
 }
 
 export default function Countdown() {
-  // null during SSR/prerender and first paint — the ticking values only exist
+  // null during SSR/prerender and first paint, the ticking values only exist
   // client-side, so server and client markup always match (no hydration mismatch)
   const [t, setT] = useState(null)
 
@@ -27,7 +27,7 @@ export default function Countdown() {
 
   const units = t
     ? [['Días', t.days], ['Horas', t.hours], ['Min', t.mins], ['Seg', t.secs]]
-    : [['Días', '—'], ['Horas', '—'], ['Min', '—'], ['Seg', '—']]
+    : [['Días', '··'], ['Horas', '··'], ['Min', '··'], ['Seg', '··']]
 
   return (
     <div className="countdown" role="timer" aria-label="Tiempo restante para las elecciones generales de Puerto Rico 2028">
